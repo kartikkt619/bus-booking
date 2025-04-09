@@ -2,7 +2,7 @@ import React from 'react'
 import { FaMapPin } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
 
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo3.png";
 
 const Footer = () => {
   return (
@@ -13,7 +13,7 @@ const Footer = () => {
             <img src={Logo} alt="logo" className="w-44 h-auto object-contain" />
           </Link>
           <p className="text-neutral-600 dark:text-neutral-500 text-base font-normal pr-10">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam placeat corporis, rerum laborum optio laboriosam perferendis sit culpa doloribus, tempora aliquam repellendus reprehenderit, ullam alias.
+          Don't miss out on these incredible offers, book your bus tickets now and travel with convenience and affordability. Hurry, grab the best bus booking deals before they're gone! KK Bus Booking offers bus ticket booking through its website, for all major routes.
           </p>
         </div>
 
@@ -63,32 +63,24 @@ const Footer = () => {
                   For Support & Reservations
                 </p>
                 <p className="text-sm text-neutral-700 dark:text-neutral-400">
-                  123, Main Street, Anytown, USA
+                  Ranjit Avenue, B block, A town, Amritsar
                 </p>
               </div>
             </div>
 
             <div className="flex gap-x-2">
-              <FaMapPin className='text-2xl text-neutral-600 dark:text-neutral-500' />
+              
               <div className="flex flex-col">
-                <p className="text-xs text-neutral-600 dark:text-neutral-500">
-                  For Support & Reservations
-                </p>
-                <p className="text-sm text-neutral-700 dark:text-neutral-400">
-                  123, Main Street, Anytown, USA
-                </p>
+                
+                
               </div>
             </div>
 
             <div className="flex gap-x-2">
-              <FaMapPin className='text-2xl text-neutral-600 dark:text-neutral-500' />
+              
               <div className="flex flex-col">
-                <p className="text-xs text-neutral-600 dark:text-neutral-500">
-                  For Support & Reservations
-                </p>
-                <p className="text-sm text-neutral-700 dark:text-neutral-400">
-                  123, Main Street, Anytown, USA
-                </p>
+                
+              
               </div>
             </div>
           </div>
